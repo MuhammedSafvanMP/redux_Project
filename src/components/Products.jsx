@@ -17,7 +17,7 @@ export default function Products() {
     }, []);
 
     return (
-        <Container>
+        <Container style={{paddingTop : "10rem"}}>
         <Row>
             {products &&
                 products.map(product => (
